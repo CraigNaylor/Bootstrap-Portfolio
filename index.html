@@ -16,7 +16,10 @@
 <body>
     <!--Top of the page Nave Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+            <img src="./Images/Profile picture.jpg" width="30" height="30" alt="Craig Naylor"
+                style=" border-radius: 50%;">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,52 +28,52 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">My Work <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Skills</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Career
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">LinkedIn</a>
+                        <a class="dropdown-item" href="#">CV</a>
+
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link disabled" href="#">About Me</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+
         </div>
     </nav>
 
     <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>I am Craig Naylor</h1>
+                <p>And I'm an aspiring Front-end Web Developer</p>
+                <a href="mailto:naylor.cn@gmail.com"> <button class="hireButton">Hire me!</button></a>
+            </div>
+        </div>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
+
     </div>
-    <section>
+    <section class="cardSection">
         <!--Cards conatining links to my work-->
         <div class="container" id="My-work">
             <!--Cards-->
             <div class="row">
                 <div class="col lg-4 md-6 sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top"
+                            src="https://cdn.britannica.com/45/4245-050-58199B26/Zimbabwe-map-features-locator.jpg"
+                            alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -83,7 +86,9 @@
                 </div>
                 <div class="col lg-4 md-6 sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top"
+                            src="https://cdn5-ss10.sharpschool.com/UserFiles/Servers/Server_63204/Image/Study_Guide.jpg"
+                            alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -96,7 +101,7 @@
                 </div>
                 <div class="col lg-4 md-6 sm-3">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="..." alt="Card image cap">
+                        <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
@@ -199,16 +204,25 @@
         <!--Section for about me and contact, must be in the same row-->
         <!--Include links for contact-->
         <div class="container" id="about and contact">
-            <p>
-                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
-                    aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-                <button class="btn btn-primary" type="button" data-toggle="collapse"
-                    data-target="#multiCollapseExample2" aria-expanded="false"
-                    aria-controls="multiCollapseExample2">Toggle second element</button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
-                    aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
-                    elements</button>
-            </p>
+            <div class="row">
+                <div class="col lg-4 md-6 sm-3">
+                    <p>
+                        <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                            aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                </div>
+                <div class="col lg-4 md-6 sm-3">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse"
+                        data-target="#multiCollapseExample2" aria-expanded="false"
+                        aria-controls="multiCollapseExample2">Toggle second element</button>
+                </div>
+                <div class="col lg-4 md-6 sm-3">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                        aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both
+                        elements</button>
+                </div>
+                </p>
+            </div>
+            <!--Div-->
             <div class="row">
                 <div class="col">
                     <div class="collapse multi-collapse" id="multiCollapseExample1">
@@ -238,17 +252,17 @@
 
     <!--footer section containing buttons with hyperlinks-->
     <footer>
-        <div class="row" >
+        <div class="row">
             <div class="col lg-4 md-6 sm-3">
-                <a href="#" alt="My CV">   <button type="button" class="btn btn-primary btn-sm">CV</button></a>
+                <a href="#" alt="My CV"> <button type="button" class="btn btn-primary btn-sm">CV</button></a>
             </div>
 
             <div class="col lg-4 md-6 sm-3">
-                <a href="#" alt="My CV">   <button type="button" class="btn btn-primary btn-sm">Bootstrap!</button></a>
+                <a href="#" alt="My CV"> <button type="button" class="btn btn-primary btn-sm">Bootstrap!</button></a>
             </div>
 
             <div class="col lg-4 md-6 sm-3">
-                <a href="#" alt="My CV">   <button type="button" class="btn btn-primary btn-sm">Placeholder</button></a>
+                <a href="#" alt="My CV"> <button type="button" class="btn btn-primary btn-sm">Placeholder</button></a>
             </div>
         </div>
 

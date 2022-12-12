@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(2, 2, 78);
+    color: azure;
+}
+
+.jumbotron {
+    background-color: rgb(2, 2, 78);
+}
+
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/HeroImage.JPG");
+
+    /* Set a specific height */
+    height: 800px;
+
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hireButton {
+    background-color: #007bff;
+    color: aliceblue;
+    border-color: #007bff;
+}
+
+.cardSection {
+    background-color: rgb(220, 224, 255);
+    padding: 50px;
+    border: 30px;
+}
+
+.card {
+    background-color: azure;
+    color: black;
+    width: 100%;
+    padding: 9px 20px 9px 20px;
+    margin-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 1px 1px 1px #0f0e0e;
+    box-sizing: border-box;
+    height: 100% !important;
+}
+.card-img-top {
+    width: 100%;
+    height: 9vw;
+    object-fit: cover;
+}
