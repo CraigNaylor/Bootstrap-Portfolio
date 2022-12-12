@@ -1,6 +1,17 @@
 body {
     background-color: rgb(2, 2, 78);
-    color: azure;
+    color: rgb(188, 224, 224);
+}
+
+.navbar {
+    position: fixed;
+    overflow: hidden !important;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav-link {
+    color: black !important;
 }
 
 .jumbotron {
@@ -9,14 +20,8 @@ body {
 
 
 .hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/HeroImage.JPG");
-
-    /* Set a specific height */
-    height: 800px;
-
-
-    /* Position and center the image to scale nicely on all screens */
+    height: 950px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,6 +43,14 @@ body {
     border-color: #007bff;
 }
 
+#MyWork {
+    color: #0f0e0e;
+}
+
+#MySkills {
+    color: rgb(188, 224, 224);
+}
+
 .cardSection {
     background-color: rgb(220, 224, 255);
     padding: 50px;
@@ -55,8 +68,63 @@ body {
     box-sizing: border-box;
     height: 100% !important;
 }
+
+
+
 .card-img-top {
     width: 100%;
     height: 9vw;
     object-fit: cover;
+    position: relative;
+
+}
+
+
+.mySkills {
+    padding: 30px;
+}
+
+#collapseContent {
+    padding: 20px;
+    border: 25px;
+}
+
+#about {
+    text-align: start;
+}
+
+#contact {
+    text-align: end;
+}
+
+footer {
+    padding: 50px;
+    border: 50px;
+    background-color: #007bff;
+}
+
+#cv {
+    text-align: start;
+    transition: ;
+
+}
+
+#instagram {
+    text-align: center;
+
+
+}
+
+button #instagram:hover {
+
+    box-shadow: 0 0 0 2em transparent;
+    color: #041930;
+}
+
+#placeholder {
+    text-align: end;
+}
+
+.btn-primary {
+    background-color: rgb(2, 2, 78);
 }

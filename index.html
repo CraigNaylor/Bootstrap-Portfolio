@@ -14,47 +14,45 @@
 </head>
 
 <body>
-    <!--Top of the page Nave Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="./Images/Profile picture.jpg" width="30" height="30" alt="Craig Naylor"
-                style=" border-radius: 50%;">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <header id="top">
+        <!--Top of the page Nave Bar-->
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">My Work <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./Images/Profile picture.jpg" width="30" height="30" alt="Craig Naylor"
+                    style=" border-radius: 50%;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Career
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">LinkedIn</a>
-                        <a class="dropdown-item" href="#">CV</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#MyWork">My Work <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#MySkills">Skills</a>
+                    </li>
 
-                    </div>
-            </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                       
 
-        </div>
-    </nav>
+                        </div>
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
 
     <div class="jumbotron">
 
@@ -62,7 +60,7 @@
             <div class="hero-text">
                 <h1>I am Craig Naylor</h1>
                 <p>And I'm an aspiring Front-end Web Developer</p>
-                <a href="mailto:naylor.cn@gmail.com"> <button class="hireButton">Hire me!</button></a>
+                <a href="https://github.com/CraigNaylor"> <button class="hireButton">GitHub</button></a>
             </div>
         </div>
         <hr class="my-4">
@@ -71,19 +69,18 @@
     <section class="cardSection">
         <!--Cards conatining links to my work-->
         <div class="container" id="My-work">
+            <h1 id="MyWork">My Work</h1>
             <!--Cards-->
             <div class="row">
                 <div class="col lg-4 md-6 sm-3">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" id="Card" style="width: 18rem;">
                         <img class="card-img-top"
                             src="https://cdn.britannica.com/45/4245-050-58199B26/Zimbabwe-map-features-locator.jpg"
                             alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h2 class="card-title">Zimbabwe</h2>
+                            <p class="card-text">This was a website i constructed towards the beginning of my coding career. It was used to give me the opportunity to experiment with css grids and flexbox, as well as to highlite some of the incredible places to see in Zimbabwe!</p>
+                            <a href="https://craignaylor.github.io/zimbabwe/" class="btn btn-primary">Visit Zimbabwe!</a>
                         </div>
                     </div>
 
@@ -94,11 +91,9 @@
                             src="https://cdn5-ss10.sharpschool.com/UserFiles/Servers/Server_63204/Image/Study_Guide.jpg"
                             alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h2 class="card-title">Pre-work Study Guide!</h2>
+                            <p class="card-text">This was the first ever webpage I made! It was constructed whilst completing the pre-work for the Skillsex Front-end Web Development course. It contains a few basic notes that may one day be of use to future students!</p>
+                            <a href="https://craignaylor.github.io/prework-study-guide/" class="btn btn-primary">Pre-work Study Guide</a>
                         </div>
                     </div>
 
@@ -107,11 +102,9 @@
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="https://placehold.co/600x400" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h2 class="card-title">Under Construction</h2>
+                            <p class="card-text">I'm only at the beggining of my coding journey, and with so much left to learn, you can be sure that my next project will fill this space soon!</p>
+                            <a href="#" class="btn btn-primary">Coming Soon</a>
                         </div>
                     </div>
 
@@ -122,12 +115,12 @@
         </div>
     </section>
 
-    <section>
+    <section class="mySkills">
         <!--Skills section of the page-->
         <!--Add padding and border tospace out sections-->
         <div class="container" id="skills">
 
-            <h1>Skills</h1>
+            <h1 id="MySkills">Skills</h1>
             <div id="accordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -202,23 +195,19 @@
     <section>
         <!--Section for about me and contact, must be in the same row-->
         <!--Include links for contact-->
-        <div class="container" id="about and contact">
+        <div class="container" id="collapseContent">
             <div class="row">
-                <div class="col lg-4 md-6 sm-3">
+                <div class="col lg-6 md-4 sm-3" id="about">
                     <p>
                         <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
                             aria-expanded="false" aria-controls="multiCollapseExample1">About Me</a>
                 </div>
-                <div class="col lg-4 md-6 sm-3">
+                <div class="col lg-6 md-4 sm-3" id="contact">
                     <button class="btn btn-primary" type="button" data-toggle="collapse"
                         data-target="#multiCollapseExample2" aria-expanded="false"
                         aria-controls="multiCollapseExample2">Contact Me</button>
                 </div>
-                <div class="col lg-4 md-6 sm-3">
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse"
-                        aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">About me &
-                        Contact</button>
-                </div>
+
                 </p>
             </div>
             <!--Div-->
@@ -253,10 +242,12 @@
                 <div class="col">
                     <div class="collapse multi-collapse" id="multiCollapseExample2">
                         <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid.
-                            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
-                            proident.
+                            <div class="myContacts">
+                                <div class="mail"><a href="mailto:naylor.cn@gmail.com">Email</a></div>
+                                <div class="tel"> <a href="tel:+44 77 3659 8978">Phone</a></div>
+                                <div class="lkdn"> <a
+                                        href="https://www.linkedin.com/in/craig-naylor-2b101a235">Linkdin</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -269,16 +260,18 @@
     <!--footer section containing buttons with hyperlinks-->
     <footer>
         <div class="row">
-            <div class="col lg-4 md-6 sm-3">
-                <a href="#" alt="My CV"> <button type="button" class="btn btn-primary btn-sm">CV</button></a>
+            <div class="col lg-4 md-6 sm-3" id="cv">
+                <a href="./CV/Curriculum vitae. .pdf" alt="My CV"> <button type="button"
+                        class="btn btn-primary btn-sm">CV</button></a>
             </div>
 
-            <div class="col lg-4 md-6 sm-3">
-                <a href="#" alt="My CV"> <button type="button" class="btn btn-primary btn-sm">Bootstrap!</button></a>
+            <div class="col lg-4 md-6 sm-3" id="instagram">
+                <a href="#" aria-multiline="Instagram"> <button type="button"
+                        class="btn btn-primary btn-sm">Instagram</button></a>
             </div>
 
-            <div class="col lg-4 md-6 sm-3">
-                <a href="#" alt="My CV"> <button type="button" class="btn btn-primary btn-sm">Placeholder</button></a>
+            <div class="col lg-4 md-6 sm-3" id="placeholder">
+                <a href="#" alt="Top"> <button type="button" class="btn btn-primary btn-sm">Back to Top</button></a>
             </div>
         </div>
 
